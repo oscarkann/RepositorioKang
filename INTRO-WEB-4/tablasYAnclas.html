@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas y Anclas</title>
+    <link rel="stylesheet" href="./tablasYAnclas.css">
+</head>
+
+<body>
+    <h1>Tablas</h1> <!--Las tablas son un conjunto estructurado de datos compuesto por filas y columnas.-->
+
+        <caption> Tabla de nombres</caption> <!--representa un título descriptivo en una tabla.-->
+    
+        <table> <!--crea el elemento de tabla.-->
+            <tr> <!--representa una fila.-->
+                <th>Nombre</th> <!--representa las celdas de encabezado.-->
+                <th>Apellido</th> 
+            </tr> 
+            <tr> 
+                <td>Pedro</td> <!--representa las celdas de datos.-->
+                <td>Infante</td> 
+            </tr> 
+            <tr> 
+                <td>Sara</td>
+                <td>Garcia</td> 
+            </tr> 
+        </table>
+    
+    <br>
+    <table>
+        <p>Tabla simple con encabezado</p><!--Representa un parrafo de descrpcion-->
+        <thead><!--esta etiqueta agrupa los elementos de la cabecera en la tabla.-->
+            <tr>
+                <th colspan="2">Encabezado de tablas</th><!--permite expandir las celdas de datos o de encabezados al número de columnas que deseemos que ocupe-->
+            </tr>
+        </thead>
+        <tbody><!--esta etiqueta agrupa los elementos de contenido en la tabla.-->
+            <tr>
+                <td>El cuerpo de la tabla</td>
+                <td>con 2 columnas</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <caption> Tabla de nombres</caption> <!--representa un título descriptivo en una tabla.-->
+
+<p>Tabla con thead, tfoot, y tbody</p>
+<table>
+    <thead>
+        <tr>
+            <th>Header content 1</th>
+            <th>Header content 2</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Body content 1</td>
+            <td>Body content 2</td>
+        </tr>
+    </tbody>
+    <tfoot><!--esta etiqueta agrupa los elementos de pie en la tabla.-->
+        <tr>
+            <td>Footer content 1</td>
+            <td>Footer content 2</td>
+        </tr>
+    </tfoot>
+</table>
+    
+    <p>Table with colgroup</p>
+<table>
+    <colgroup span="2"></colgroup> <!--Para aplicar una propiedad a más de una columna no es necesario repetir la propiedad en cada elemento <col>. Lo más sencillo es aplicarle el atributo span al primer elemento <col>. Este atributo funciona igual que rowspan y colspan, es decir, nos permite expandir la influencia de <col> al número de columnas que queramos.-->
+    <tr>
+        <th>Countries</th>
+        <th>Capitals</th>
+        <th>Population</th>
+        <th>Language</th>
+    </tr>
+    <tr>
+        <td>USA</td>
+        <td>Washington, D.C.</td>
+        <td>309 million</td>
+        <td>English</td>
+    </tr>
+    <tr>
+        <td>Sweden</td>
+        <td>Stockholm</td>
+        <td>9 million</td>
+        <td>Swedish</td>
+    </tr>
+</table>
+<p>Table with colgroup and col</p>
+<table>
+    <colgroup><!--El elemento <col> se especifica dentro de un bloque <colgroup>, justo debajo de la apertura <table>.-->
+    <col style="background-color: rgb(71, 135, 160)" /> <!--Este elemento nos permite especificar propiedades de estilo para toda una columna. Sin este elemento tendríamos que especificar el estilo en cada celda <th> o <td> de la columna que queramos estilizar. -->
+        <col span="2" />
+    </colgroup>
+    <tr>
+        <th>Lima</th>
+        <th>Limon</th>
+        <th>Naranja</th>
+    </tr>
+    <tr>
+        <td>Green</td>
+        <td>Yellow</td>
+        <td>Orange</td>
+    </tr>
+</table>
+
+<p>Cuadro sencillo con leyenda(caption)</p>
+<table>
+    <caption>
+        Subtítulo impresionante
+    </caption>
+    <tr>
+        <td>Dato Impresionante</td>
+    </tr>
+</table>
+<br>
+<hr>
+<h1 style="color: burlywood; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Lista de Super</h1>
+
+<table style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+    <col style="background-color: rgb(218, 73, 73)" />
+    <col style="background-color: rgb(23, 75, 18)" />
+    <col style="background-color: rgb(71, 135, 160)" />
+    <col style="background-color: rgb(164, 129, 89)" />
+    <col style="background-color: rgb(160, 71, 154)" />
+    <tr style="color: rgb(55, 71, 54); background-color:lightslategrey;">
+        <th>Frutas</th>
+        <th>Verduras</th>
+        <th>Lacteos</th>
+        <th>Carnes</th>
+        <th>Comida para Michis</th>
+    </tr>
+    <tr>
+        <td>Uvas</td>
+        <td>Calabaza</td>
+        <td>Panela</td>
+        <td>Carne Asada</td>
+        <td>Croquetas</td>
+    </tr>
+    <tr>
+        <td>Sandía</td>
+        <td>Zanahoria</td>
+        <td>Leche</td>
+        <td>Chuletas</td>
+        <td>Premios</td>
+    </tr>
+    <tr>
+        <td>Fresa</td>
+        <td>Cebolla</td>
+        <td>Crema</td>
+        <td>Pollo</td>
+        <td>Latas de Comida</td>
+    </tr>
+    <tr>
+        <td>Limon</td>
+        <td>Rabano</td>
+        <td>Mozarella</td>
+        <td>Nuggets</td>
+        <td>Cat Chow</td>
+    </tr>
+    <tr>
+        <td>Papaya</td>
+        <td>Brocoli</td>
+        <td>Parmesano</td>
+        <td>Costillas de Cerdo</td>
+        <td>Arena para Gatos</td>
+    </tr>
+</table>
+<br>
+<table>
+    <tr>
+        <td style="color: darkred; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: large; background-color: darkgoldenrod;">Total $1,170</td>
+    </tr>
+</table>
+<br>
+<button>
+    <h3 style="back">PAGAR</h3>
+</button>
+</body>
+
+</html>
