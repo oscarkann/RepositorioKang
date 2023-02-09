@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deprimidora</title>
+    <script src="/js/Ejercicio2.js"></script>
+</head>
+
+<body style="text-align: center;">
+    <h1>Deprimidora 7up</h1>
+
+    <h2>Sueldo</h2>
+    <script>
+        horas();
+        saltarLinea();
+    </script>
+
+    <h2>Problema</h2>
+    <img style="border: black solid 1px;" src="./img/captura.png" alt="">
+    <script>
+        imprimir(div(suma(3, 2), multi(2, 5)));
+        saltarLinea();
+    </script>
+
+    <h2>Programa calculo de IMC</h2>
+    <script>
+        function imprimir(frase) {
+            document.write(frase);
+            saltarLinea();
+        }
+
+        function calcularimc(peso, altura) {
+
+            return (peso / (altura * altura));
+
+        }
+
+        nombre = prompt("Informe su nombre:")
+        pesoInformado = prompt(nombre + ", informe su peso:")
+        alturaInformado = prompt(nombre + ", informe su altura:")
+
+        imccalculado = calcularimc(pesoInformado, alturaInformado);
+
+        imprimir(nombre + ", Su imc calculado es: " + imccalculado);
+
+        if (imccalculado < 18.5) {
+            imprimir("abajo de lo recomendado")
+        }
+
+        if (imccalculado >= 18.5) {
+
+            if (imccalculado < 25) {
+
+                imprimir("IMC esta dentro del intervalo normal")
+            }
+        }
+
+        if (imccalculado >= 25) {
+
+            if (imccalculado < 30) {
+
+                imprimir("IMC considerado como sobrepeso")
+            }
+        }
+
+        if (imccalculado >= 30) {
+            imprimir("IMC considerado como obecidad")
+        }
+
+
+
+    </script>
+
+
+
+</body>
+
+</html>
