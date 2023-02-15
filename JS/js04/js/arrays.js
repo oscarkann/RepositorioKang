@@ -1,7 +1,18 @@
 let lista = [12,5,80,34,7];
+
+//MAP -> te entrega el producto de cada uno de ellos *2
+let lNueva = lista.map(
+    function(valor){
+        return valor * 2
+    }
+)
+console.log(lNueva);
+
+
+//SORT EN ORDEN MENOR A MAYOR
 lista.sort(
     function(valor1,valor2){
-        return valor1 > valor2;
+        return valor1 - valor2;
     }
 );
 console.log(lista);
