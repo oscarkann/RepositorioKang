@@ -1,0 +1,187 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    color:#111;
+    background:#ededed;
+}
+.contenedor{
+    width: 95%;
+    margin: auto;
+    margin-top: 25px;
+    min-height: 90vh;
+    background-color: #35486f;
+    border-radius: 15px;
+}
+/*Header*/
+h1{
+    text-transform: uppercase;  
+    text-align: center;  
+}
+h1>b{
+    color: #f74;
+}
+.img{
+    height:70px;
+    border-radius: 50%;
+    transition:all 1.5s;
+    border-bottom: solid 5px #444;
+}
+.img:hover{
+    height:180px;
+    border-radius: 50%;
+    border: solid 0px #000;
+}
+.containImg{
+    text-align: center;
+    border-bottom: solid #232 4px;
+    padding: 5px;
+}
+.menu ul{
+    text-align: center; 
+    margin: auto;
+    padding: 0;
+    list-style-type: none;
+}
+.menu ul li{
+    display:inline-block;
+    position: relative;
+    
+}
+/*Comienza estilo del nav*/
+.menu ul li a{
+    background-color: #445;
+    color: #ddd;
+    font-size: 10px;
+    text-decoration: none;
+    display: block;
+    padding: 2px;
+    position: relative;
+    top: 0;
+    margin: 0 10px 0 10px;
+    font-size: 17px;
+}
+
+.menu ul ul {
+    display:none;
+    position:absolute;
+    top:100%;
+    float: left;
+    
+    }
+.menu ul li:hover>ul{
+    display:flex;
+    flex-direction: column;
+    width: max-content;
+    float: left;
+}
+.menu ul li ul li a:hover{
+    background-color: #f74;
+}
+/*Comienza estilo de la section*/
+section{
+    display: flex;
+    font-size: 18px;
+}
+h3{
+    color: #f74;
+    padding-bottom:5px ;
+    text-transform: uppercase;
+}
+ p{
+    text-align: justify;
+    margin-bottom: 5px;
+}
+#acerca{
+    margin: 0 20px 10px 5px;
+}
+#educacion div{
+    display: flex;
+   
+}
+#educacion div p{
+    background-color: #cdcdcd;
+    padding: 10px;
+}
+
+h5{
+    margin: 10px;
+    font-weight: 900;
+}
+
+#experiencia div{
+    display: flex;
+}
+#experiencia div h5{
+    min-width: max-content;
+    margin-right: 20px;
+}
+#experiencia div p{
+    margin: 10px 0 10px 0;
+    background-color: #cdcdcd;
+    padding: 7px;
+}
+section div{
+    margin: 0 30px 0 20px;
+}
+/*Finaliza estilos section
+empieza estilos aside*/
+aside{
+    text-align:start;
+}
+#contacto{
+    width:250px;
+    
+}
+#contacto h6{
+    font-size: 25px;
+}
+#skills{
+    margin:60px 0 40px 20px;
+    padding-right: 10px;
+
+}
+#html, #css{
+    padding: 2px;
+    height: 24px;
+    background-color: #f74;
+    margin: 5px 0 5px 0;
+    font-size: 15px;
+}
+#js{
+    height: 24px;
+    padding: 2px;
+    background-color: #f74;
+    margin: 5px 0 5px 0;
+    width: 90%; 
+    font-size: 15px;
+}
+#java, #pyh{
+    height: 24px;
+    padding: 2px;
+    background-color: #f74;
+    margin: 5px 0 5px 0;
+    width: 20%; 
+    font-size: 15px;
+}
+#idiomas p{
+    border-bottom: solid #000 2px;
+    border-top: solid #000 2px;
+    padding: 5px 10px 5px 10px;
+}
+button{
+    width: 200px;
+    height: 200px;
+    background-color: #111;
+    color:#888;
+}
+#hobbies div{
+    font-size: 22px;
+    margin: 6px;
+    padding: 5px 5px 5px 15px;
+    border-radius: 12px;
+    background-color: #f74;
+}

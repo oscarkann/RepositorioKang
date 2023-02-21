@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplos js para la web (INTRO-WEB-7)</title>
+</head>
+
+<body>
+
+    <script>
+        function saludar() {
+            console.log("Hola mundo js desde vscode :*");
+        }
+
+        function sumar(v1, v2 = 10) {
+            console.log("esto es una suma: ");
+            return (v1 + v2);
+        }
+    </script>
+
+    <h1>Javascript</h1>
+    <script>
+        saludar();
+        console.log("el resultado es: " + sumar(3, 20));
+    </script>
+    <script>
+        function llamaNombre(nombre) {
+            alert("Hola, " + nombre);
+        }
+    </script>
+    <script>
+        let nombre = prompt("Cual es tu nombre?: ");
+        llamaNombre(nombre);
+    </script>
+    <script src="../INTRO-WEB-7/js01/tiposdedatosyvariables.js"></script>
+</body>
+
+</html>

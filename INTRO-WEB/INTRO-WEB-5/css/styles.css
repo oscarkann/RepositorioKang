@@ -1,0 +1,245 @@
+/* Body styles */
+body {
+    font-family: 'Open sans', Arial, Tahoma;
+    /* fuente para todo el contenido del body */
+    font-weight: 600;
+    /* peso de la fuente */
+    font-size: 14px;
+    /* tamaño de la fuente */
+    color: rgb(48, 65, 116);
+    /* color del texto */
+    background-color: rgb(63, 89, 131);
+    /* color de fondo */
+}
+
+/* Estilos para el encabezado */
+h1 {
+    text-transform: uppercase;
+    /* convierte el texto en mayúsculas */
+    text-align: center;
+    /* alinea el texto al centro */
+}
+
+/* Estilos para el span dentro del h1 */
+h1 span {
+    color: rgb(199, 222, 54);
+    /* color del texto del span */
+}
+
+/* Estilos para el contenedor con id "photo-header" */
+#photo-header {
+    text-align: center;
+    /* alinea el texto al centro */
+    border-bottom-color: rgb(32, 44, 80);
+    /* color de la línea de borde inferior */
+    border-bottom-width: 5px;
+    /* ancho de la línea de borde inferior */
+    border-bottom-style: inset;
+    /* estilo de la línea de borde inferior */
+}
+
+/* Estilos para la imagen dentro del contenedor con id "photo" */
+#photo img {
+    background-color: rgb(48, 65, 116);
+    /* color de fondo de la imagen */
+    width: 120px;
+    /* ancho de la imagen */
+    height: 120px;
+    /* alto de la imagen */
+    border-radius: 30%;
+    /* radio del borde de la imagen */
+}
+
+/* Estilos para el contenedor con clase "container" */
+.container {
+    max-width: 900px;
+    /* ancho máximo del contenedor */
+    background-color: rgb(255, 255, 255);
+    /* color de fondo */
+    margin-top: 60px;
+    /* margen superior */
+    border-radius: 10px;
+    /* radio de los bordes */
+    margin-left: auto;
+    /* margen izquierdo automático */
+    margin-right: auto;
+    /* margen derecho automático */
+    margin-bottom: 40px;
+    /* margen inferior */
+}
+
+/* Estilos para el contenedor de la lista de elementos con clase "menu" */
+.menu ul {
+    text-align: center;
+    /* alinea el texto al centro */
+    margin: auto;
+    /* margen automático */
+    padding: 0%;
+    /* padding a cero */
+    list-style-type: none;
+    /* quita los estilos de los elementos de la lista */
+}
+
+/* Estilo para cada elemento "li" dentro de la lista "ul" dentro del elemento con clase "menu" */
+.menu ul li {
+    /* Hace que los elementos "li" se muestren en línea */
+    display: inline-block;
+    /* Posiciona los elementos "li" de manera relativa para poder desplegar el submenu de forma correcta */
+    position: relative;
+}
+
+/* Estilo para cada elemento "a" dentro de un elemento "li" dentro de una lista "ul" dentro del elemento con clase "menu" */
+.menu ul li a {
+    /* Establece el fondo del elemento "a" con el color rgb (199, 222, 54) */
+    background-color: rgb(199, 222, 54);
+    /* Establece el color de la fuente del elemento "a" con el color rgb (48, 65, 116) */
+    color: rgb(48, 65, 116);
+    /* Establece el tamaño de la fuente del elemento "a" a 10px */
+    font-size: 10px;
+    /* Quita el subrayado en los enlaces */
+    text-decoration: none;
+    /* Hace que el elemento "a" ocupe todo el espacio disponible */
+    display: block;
+    /* Establece un margen interior de 5px alrededor del elemento "a" */
+    padding: 5px;
+    /* Crea un borde redondeado con un radio de 20px */
+    border-radius: 20px;
+    /* Establece un margen externo de 3px */
+    margin: 3px;
+    /* Hace que el ancho del elemento "a" se ajuste automáticamente */
+    width: auto;
+}
+
+/* Estilo para el elemento "ul" dentro de un elemento "li" dentro de una lista "ul" dentro del elemento con clase "menu" */
+.menu ul li ul {
+    /* Posiciona el elemento "ul" de manera absoluta */
+    position: absolute;
+    /* Establece una distancia de 25px desde la parte superior del elemento padre */
+    top: 25px;
+    /* Establece una distancia de 0px desde la parte izquierda del elemento padre */
+    left: 0;
+    /* Quita los puntos antes de cada elemento de la lista */
+    list-style-type: none;
+    /* Oculta el elemento "ul" */
+    display: none;
+    /* Hace que la altura del elemento "ul" se ajuste automáticamente */
+    height: auto;
+}
+
+.menu ul li:hover ul {
+    display: block;
+    /* Muestra el bloque en una nueva línea */
+}
+
+.menu ul li ul li {
+    display: block;
+    /* Muestra cada elemento en un bloque */
+    width: 60px;
+    /* Ancho de cada elemento */
+    height: 30px;
+    /* Altura de cada elemento */
+    margin: 0;
+    /* Sin margen */
+    text-align: left;
+    /* Alineación del texto a la izquierda */
+    font-size: 14px;
+}
+
+/* Color and text transform for h2 headings */
+h2 {
+    color: rgb(199, 222, 54);
+    /* sets the text color */
+    text-transform: uppercase;
+    /* converts the text to uppercase */
+}
+
+/* Adds a smiley face before h2 heading */
+h2::before {
+    content: ":o ";
+    /* smiley face symbol */
+}
+
+/* Clearfix class to clear floating elements */
+.clearfix {
+    display: table;
+    /* sets the display property to table */
+    line-height: 1;
+    /* sets the line-height to 1 */
+    content: "/";
+    /* adds content for clearfix */
+}
+
+/* Float class for left alignment */
+.pull-left {
+    float: left
+        /* sets the float property to left */
+}
+
+/* Row class for padding */
+.row {
+    padding-left: 10px;
+    /* sets the left padding */
+    padding-right: 10px;
+    /* sets the right padding */
+}
+
+/* Class for width of 60% */
+.col-60 {
+    width: 60%;
+    /* sets the width to 60% */
+}
+/*Define el ancho de un elemento en un 40%*/
+.col-40 {
+    width: 40%;
+}
+
+/*Define el ancho de un elemento en un 10%*/
+.col-10 {
+    width: 10%;
+}
+
+/*Elimina los estilos por defecto en una lista y define margen y padding en 0*/
+.education ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*Define tamaño y peso de fuente en el elemento con clase "year"*/
+.education .year {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+/*Define estilos para un elemento con clase "description" que incluyen background, borde, padding, posición, y cajas que incluyen contenido y bordes*/
+.education .description {
+    background: #EEEEEE;
+    border-bottom: 1px solid #DDDDDD;
+    padding: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+/*Elimina los margenes superiores y inferiores en los elementos "h3" y "p" dentro de un elemento con clase "description"*/
+.education .description h3,
+.education .description p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/*Añade un borde en forma de flecha al elemento "p" dentro de un elemento con clase "description"*/
+.education .description p::after {
+    content: "";
+    position: absolute;
+    border: 8px solid transparent;
+    border-right: 8px solid #EEEEEE;
+    top: 5px;
+    left: -16px;
+}
+
+/*Define la propiedad "flex" para el elemento con clase "containerflex"*/
+.containerflex{
+    display: flex;
+}
+
