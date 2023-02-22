@@ -7,8 +7,5 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Oscar Kang",
-  "license": "MIT License",
-  "dependencies": {
-    "parrotsay-api": "^0.1.1"
-  }
+  "license": "MIT License"
 }
