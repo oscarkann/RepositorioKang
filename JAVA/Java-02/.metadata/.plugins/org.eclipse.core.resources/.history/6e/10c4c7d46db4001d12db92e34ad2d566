@@ -1,0 +1,16 @@
+//Comentario en linea
+
+/*
+ * 
+ * comentario en bloque
+ * 
+ * */
+
+
+
+class HolaJava {
+	void saludo () {
+		System.out.print("Hola desde el IDE STS, basado en eclipse 123 ");
+	}
+
+}

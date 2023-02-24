@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+/Users/oscarkang/Desktop/Cohorte23/JAVA/.metadata/.plugins/org.eclipse.jdt.core
+911871195.index
+275916032.index
+1865797976.index
