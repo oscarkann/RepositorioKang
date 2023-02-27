@@ -14,9 +14,9 @@ public class EjecutarNH {
 		NuevoHola nh = new NuevoHola("Oscar Kang");
 		nh.saludo();
 		
-		String nombre;
-		System.out.println("Cual es tu nombre?: ");
-		nombre = sn.next();
+		//String nombre;
+		//System.out.println("Cual es tu nombre?: ");
+		//nombre = sn.next();
 		
 		//NuevoHola nh1 = new NuevoHola(nombre);
 		//nh1.saludoConNombre();

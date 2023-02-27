@@ -1,0 +1,247 @@
+package tiposDeDatosYVariables;
+
+public class tiposDeDatos {
+
+    public static void main(String[] args) {
+    
+
+        byte centigrados = 1;
+        double fahrenheit = (centigrados * 1.8) + 32;
+        double kelvin = centigrados + 273.15;
+
+        System.out.println("1 centigrado a fahrenheit es: " + fahrenheit);
+
+        System.out.println("1 centigrado a kelvin es: " + kelvin);
+
+        /*
+         * ºF = ºC x 1.8 + 32 formula para convertir grados centigrados a fahrenheit K =
+         * ºC + 273.15
+         */
+   
+        byte horasTrabajadas = 8; //horas trabajadas
+        byte pago = 10;
+        int multiplicacionB = horasTrabajadas * pago;
+        System.out.println("Las horas trabajadas son: " + multiplicacionB);
+        
+        double num = 1.61;
+        int numInt = (int)num; //Aqui estamos diciendo que se cambie a entero
+        long numLong = (long)num; //Aqui lo estamos cambiando a long
+        
+        System.out.println("double: " + num);
+        System.out.println("int: " + num);
+        System.out.println("long: " + numLong);
+        
+        
+        
+        
+        
+        //String
+        
+        String cantidad = "15";
+        String precio = "115.20";
+        	
+        	int cantEntero = Integer.parseInt(cantidad);
+        	double precioDouble = Double.parseDouble(precio);
+        
+        	System.out.println("El valor total de la compra es:" + (cantEntero * precioDouble));
+
+
+        	int edad = 30;
+        	double estatura = 1.61;
+        	 
+
+        	String edadString = String.valueOf (edad);
+        	String estaturaString = String.valueOf (estatura); // y ahi mismo te da todos los valores que puedes utilizar para hacer conversion 
+
+        	System.out.println("Edad: " + edadString + estatura + estaturaString);
+
+        	//conversiones
+        	
+        	int numero1 = 5;
+            int numero2 = 7;
+            int numero3 =12;
+            
+            int suma = numero1 + numero2 + numero3; //operador +, esperamos un 24
+            int resta = numero1 - numero2 - numero3; //esperamos -14
+            int multiplicación = numero1 * numero2 * numero3; //operador *, esperamos 420
+            int división = numero2 / numero1; //operador /, esperamos 1,4
+            int modulo = numero2 % numero1; //operador %, esperamos un 2
+            int incremento = ++numero3;
+            int decremento= --numero2;
+            
+            System.out.println("La suma es: "+ suma);
+            System.out.println("La resta es: "+ resta);
+            System.out.println("La multiplicación es: "+ multiplicación);
+            System.out.println("La división es: "+ división);
+            System.out.println("La modulo es: "+ modulo);
+            System.out.println("El incremento es: "+ incremento);
+            System.out.println("El decremento: "+ decremento);
+            
+            /*
+            
+            Scanner pesosc = new Scanner(System.in);
+            System.out.println ("Ingresa tu peso");
+            float peso = pesosc.nextFloat();
+            Scanner alturasc = new Scanner(System.in);
+            System.out.println ("Ingresa tu altura");
+            float altura = alturasc.nextFloat();
+
+            float IMC = peso / (altura * altura);
+
+            System.out.println("El indice de masa corporal es: " + IMC);
+            {
+
+                if (IMC < 16) {
+                    System.out.println("Criterio de ingreso");
+                } else if (IMC >= 16 && IMC < 17) {
+                    System.out.println("Infrapeso");
+                } else if (IMC >= 17 && IMC < 18.5) {
+                    System.out.println("Bajo peso");
+                } else if (IMC >= 18.5 && IMC < 25) {
+                    System.out.println("Peso normal");
+                } else if (IMC >= 25 && IMC < 30) {
+                    System.out.println("sobrepeso");
+                } else if (IMC >= 30 && IMC < 35) {
+                    System.out.println("Obesidad premorbida");
+                } else if (IMC >= 35 && IMC < 40) {
+                    System.out.println("Obesidad morbida");
+                } else {
+                    System.out.println("Obesidad hipermorbida");
+                    
+                   
+            
+            int c = 28;
+                    int d = 9;
+
+                    if (0 == c % d) { 
+                        System.out.println("Es un número par");
+                    } else {
+                        System.out.println("Es un número impar");
+                    }
+
+                    Scanner pesosc = new Scanner(System.in);
+                    System.out.println ("Ingresa tu peso");
+                    float peso = pesosc.nextFloat();
+                    Scanner alturasc = new Scanner(System.in);
+                    System.out.println ("Ingresa tu altura");
+                    float altura = alturasc.nextFloat();
+
+                    float IMC = peso / (altura * altura);
+
+                    System.out.println("El indice de masa corporal es: " + IMC);
+                    {
+
+                        if (IMC < 16) {
+                            System.out.println("Criterio de ingreso");
+                        } else if (IMC >= 16 && IMC < 17) {
+                            System.out.println("Infrapeso");
+                        } else if (IMC >= 17 && IMC < 18.5) {
+                            System.out.println("Bajo peso");
+                        } else if (IMC >= 18.5 && IMC < 25) {
+                            System.out.println("Peso normal");
+                        } else if (IMC >= 25 && IMC < 30) {
+                            System.out.println("sobrepeso");
+                        } else if (IMC >= 30 && IMC < 35) {
+                            System.out.println("Obesidad premorbida");
+                        } else if (IMC >= 35 && IMC < 40) {
+                            System.out.println("Obesidad morbida");
+                        } else {
+                            System.out.println("Obesidad hipermorbida");
+                        }
+
+                    }
+            
+            float num1 = 3;
+                    float num2 = 2;
+                    float num3 = 2;
+                    float num4 = 5;
+                    float sumaf = num1 + num2;
+                    float multiplicaciónf = num3 * num4;
+                    float divisiónf = sumaf / multiplicaciónf;
+
+                    System.out.println(sumaf);
+                    System.out.println(multiplicaciónf);
+                    System.out.println(divisiónf);
+
+*/
+            
+            //Ejercicios 
+            
+            //Ejercicio 1
+            // Declara 3 variables de tipo entero y utiliza el operador * y %
+            
+            int nume1 = 3;
+            int nume2 = 9;
+            int nume3 = 10;
+            
+            int multi = nume1 * nume2;
+            int mod = nume3 % nume1;
+            
+            System.out.println("Multiplicacion: " + multi);
+            System.out.println("Residuo Moadulo: " + mod);
+            
+            //Ejercicio 2
+            // Declara 2 variables de tipo boolean y utiliza el operador ==
+            
+            boolean boolle1 = false;
+            boolean boolle2 = true;
+            System.out.println(boolle1 == boolle2);
+            
+            //Ejercicio 3
+            // Declara dos variables de tipo Double y utiliza el operador <
+            
+            double nume4 = 5.55;
+            double nume5 = 11.11;
+            System.out.println(nume4 < nume5);
+            
+            //Ejercicio Farenheit - Celcius y Kelvin
+            
+            double FCenti = 1;
+            double CCenti = (FCenti - 32) * (5/9);
+            double KCenti = FCenti + 273.15;
+
+            System.out.println("El Resultado en CELCIUS es: " + CCenti);
+
+            System.out.println("El Resultado en KELVIN es: " + KCenti);
+
+            /*
+            //fahrenheit a celcius //(32 °F − 32) × 5/9 = 0 °C
+/			/fahrenheit a Kelvin //(32 °F − 32) × 5/9 + 273.15 = 273.15 K
+             */
+            
+    }
+    
+    
+
+}
+
+
+
+/* *
+ * datos primitivos
+ * Los unicos que llevan letra al final son long, float y double
+ 
+byte: Sirve para representar un valor numerico de 8 bits (-128 al 127) 
+short:Sirve para representar un valor numerico de 16 bits (-32,768 al 32767)
+int: de tipo entero (sirve para representar un valor numerico de 32 bits (-(-2147483648 al 2147483647)
+)
+long: Sirve para representar un valor numerico ((-9223372036854775808 al 9223372036854775807)
+)y se le agrega una l al final
+float: Sirve para representar un valor numerico de 23 bits (numeros decimales)al final lleva una f
+double: Sirve para representar un valor numerico de 64 bits (numeros decimales) al final lleva una letra d
+boolean:Sirve para representar valores booleanos (0 y  1 o true or false)1 bit
+char: Sirve para representar un caracter de 16 bits, entre comillas simples.*/
+/*
+ * datos primitivos
+ * Los unicos que llevan letra al final son long, float y double
+ 
+byte: Sirve para representar un valor numerico de 8 bits (-128 al 127) 
+short:Sirve para representar un valor numerico de 16 bits (-32,768 al 32767)
+int: de tipo entero (sirve para representar un valor numerico de 32 bits (-(-2147483648 al 2147483647)
+)
+long: Sirve para representar un valor numerico ((-9223372036854775808 al 9223372036854775807)
+)y se le agrega una l al final
+float: Sirve para representar un valor numerico de 23 bits (numeros decimales)al final lleva una f
+double: Sirve para representar un valor numerico de 64 bits (numeros decimales) al final lleva una letra d
+boolean:Sirve para representar valores booleanos (0 y  1 o true or false)1 bit
+char: Sirve para representar un caracter de 16 bits, entre comillas simples.*/
