@@ -1,0 +1,51 @@
+package Funciones;
+
+public class Funciones { //clase llamada Funciones
+	
+	//Las funciones se pueden declarar en cualquier lugar de la clase
+	public static int sumar(int num1, int num2) {
+		int resultado = num1 + num2;
+		return resultado;
+	}
+	
+	//Funcion para imprimir asteriscos
+	public static void imprimirAsteriscos() {
+		System.out.println("**********************");
+	}
+	
+	//Este metodo tiene como funcion, ejecutar cosas
+	public static void main(String[] args) {
+		
+	
+	
+		//Las invocaciones de la function se hacen generalmente dentro del metodo principal o main
+		System.out.println("El resultado de la suma es: "+ sumar(5, 8));
+		
+		imprimirAsteriscos();
+	}
+
+}
+
+
+/* 
+
+
+FUNCIONES != METODOS
+
+
+
+Funciones
+
+
+
+	-No Retornan Valores:
+	
+		No devuelven nada, no se especifica nada, 
+		y no usamos la palabra return
+		
+	-Si Retornan Valores
+
+		Se espeficica el tipo de dato, el tipo de valor
+		que regresa y se usa return para esto
+
+*/

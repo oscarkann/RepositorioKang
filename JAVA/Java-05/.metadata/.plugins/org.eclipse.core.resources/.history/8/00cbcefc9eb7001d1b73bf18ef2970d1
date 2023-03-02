@@ -1,0 +1,36 @@
+package control;
+
+import java.util.Scanner;
+
+public class EstructuraIf {
+	Scanner entrada = new Scanner(System.in);
+public void controlIf() {
+	//TODO Auto-generated method stub
+	/*
+	 
+	 if (condition) {
+	 }
+	 
+	 */
+	long nota = 6;
+	if (nota > 5) {
+		System.out.println("Nota Aprobada " + nota);
+	} else {
+		System.out.println("Nota Reprobatoria " + nota);
+	}
+	System.out.println("Continua el control de flujo...");
+}
+	
+public void divisible() {
+	System.out.println("Introduzca un 1er Numero: ");
+    int dato1 = entrada.nextInt();
+    System.out.println("Introduzca un 2do Numero: ");
+    int dato2 = entrada.nextInt();
+    if (dato1 % dato2 == 0) {
+    	System.out.println("El numero " + dato1 + "es divisible con " + dato2 + "compare");	
+	} else {
+		System.out.println("El numero " + dato1 + "NO es divisible con " + dato2 + "compare");
+	}
+}
+}
+

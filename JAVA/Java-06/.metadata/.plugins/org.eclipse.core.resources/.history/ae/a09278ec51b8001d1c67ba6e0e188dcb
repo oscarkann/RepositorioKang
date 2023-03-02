@@ -1,0 +1,15 @@
+package ciclos.forwhiledo;
+
+public class UsoWhile {
+
+		public void cicloW() {
+			// TODO Auto-generated method stub
+
+			int iterador = 0;
+			while (iterador < 10) {
+				
+				System.out.println("Iterador "+ iterador);
+				iterador = iterador +1;
+			}
+		}
+}

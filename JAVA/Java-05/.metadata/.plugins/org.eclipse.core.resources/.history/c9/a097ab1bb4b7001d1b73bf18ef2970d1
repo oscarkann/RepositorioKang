@@ -1,0 +1,14 @@
+package control;
+
+import java.util.Scanner;
+
+public class EstructuraMultiple {
+	Scanner dato = new Scanner(System.in);
+	
+	public void vocal vocal() {
+		System.out.println("Introduzca una letra: ");
+		
+		chart letra = dato.next() .charAt(charAt(0);
+	}
+	
+}
