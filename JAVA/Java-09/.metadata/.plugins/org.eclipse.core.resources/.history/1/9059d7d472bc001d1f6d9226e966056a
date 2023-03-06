@@ -1,0 +1,16 @@
+package testers;
+
+import oop.clases.Fecha;
+
+public class TestFecha {
+	public static void main(String[] args) {
+		Fecha f = new Fecha();
+		f.setDia(04);
+		f.setMes(03);
+		f.setAno(1992);
+System.out.println(f.diaMesAno());
+		
+		
+	
+}
+}
