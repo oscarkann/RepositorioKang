@@ -1,0 +1,21 @@
+package colecciones.ok;
+
+import java.sql.Wrapper;
+
+public class MisCollection {
+
+	public static void main(String[] args) {
+
+		wrapperClass();
+	}
+	
+	static void wrapperClass() {
+		
+		byte numeroB = 12;
+		System.out.println("Tamano de un byte: "+ Byte.SIZE);
+		System.out.println("Valor Max: "+ Byte.MAX_VALUE);
+		System.out.println("Valor Min: "+ Byte.MIN_VALUE);
+		
+	}
+
+}

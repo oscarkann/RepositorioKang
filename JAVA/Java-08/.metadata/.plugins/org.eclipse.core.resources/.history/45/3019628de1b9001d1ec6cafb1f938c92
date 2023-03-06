@@ -1,0 +1,77 @@
+package colecciones.ok;
+
+import java.util.*;
+
+public class MisCollection {
+
+	public static void main(String[] args) {
+		MisCollection c = new MisCollection();
+		imprimir(c.listaCollections());
+		
+		wrapperClass();
+	}
+
+	private List listaCollections() {
+
+		List miLista = new ArrayList();
+
+		miLista.add(1);
+		miLista.add(2);
+		miLista.add(3);
+
+		return miLista;
+
+	}
+
+	private static void imprimir(Collection collection) {
+		// TODO Auto-generated method stub
+		for (Object elementos : collection) {
+			System.out.println("elementos");
+
+		}
+	}
+
+	static void wrapperClass() {
+
+		byte numeroB = -128;
+		System.out.println("Tamano de un byte: " + Byte.SIZE);
+		System.out.println("Valor Max: " + Byte.MAX_VALUE);
+		System.out.println("Valor Min: " + Byte.MIN_VALUE);
+		System.out.println("---> " + numeroB);
+		System.out.println("--------------------------");
+
+		int numeroI = -2147483648;
+		System.out.println("Tamano de un entero: " + Integer.BYTES);
+		System.out.println("Valor Max: " + Integer.SIZE);
+		System.out.println("Valor Min: " + Integer.MAX_VALUE);
+		System.out.println("Valor Min: " + Integer.MIN_VALUE);
+		System.out.println("---> " + numeroI);
+		System.out.println("--------------------------");
+
+		long numeroC = -214;
+		System.out.println("Tamano de un Long: " + Long.BYTES);
+		System.out.println("Valor Max: " + Long.SIZE);
+		System.out.println("Valor Min: " + Long.MAX_VALUE);
+		System.out.println("Valor Min: " + Long.MIN_VALUE);
+		System.out.println("---> " + numeroC);
+		System.out.println("--------------------------");
+
+		short numeroK = 5;
+		System.out.println("Tamano de un Short: " + Short.BYTES);
+		System.out.println("Valor Max: " + Short.SIZE);
+		System.out.println("Valor Min: " + Short.MAX_VALUE);
+		System.out.println("Valor Min: " + Short.MIN_VALUE);
+		System.out.println("---> " + numeroK);
+		System.out.println("--------------------------");
+
+		double numeroD = 5;
+		System.out.println("Tamano de un Double: " + Double.BYTES);
+		System.out.println("Valor Max: " + Double.SIZE);
+		System.out.println("Valor Min: " + Double.MAX_VALUE);
+		System.out.println("Valor Min: " + Double.MIN_VALUE);
+		System.out.println("---> " + numeroD);
+		System.out.println("--------------------------");
+
+	}
+
+}
