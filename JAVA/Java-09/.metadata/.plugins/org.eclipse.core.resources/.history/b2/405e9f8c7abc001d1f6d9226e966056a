@@ -10,6 +10,5 @@ public class TestFecha {
 		f.setAno(1992);
 System.out.println(f.diaMesAno());	
 System.out.println("--->"+ f.toString());
-
 }
 }
