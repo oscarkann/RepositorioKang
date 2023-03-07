@@ -1,0 +1,14 @@
+package com.generation.ok.clases;
+
+public class TacoPreparado {
+
+	Taco gringa = new Taco("harina","trompo",1,"grande",35);
+    System.out.println(gringa.toString());
+    System.out.println(bistek.toString());
+    
+    gringa.preparar();
+    gringa.vender();
+    gringa.ponerSalsa();
+    bistek.subirPrecio();
+    
+}
