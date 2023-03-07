@@ -1,0 +1,25 @@
+package com.generation.ok.mains;
+
+import com.generation.ok.clases.Taco;
+
+public class TestTaco {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Taco t = new Taco();
+	    t.setTipoDeTortilla("maiz");
+	    System.out.println("el tipo de tortilla es: " + t.getTipoDeTortilla());
+	    
+	    t.setGuisado("Pastor");
+	    System.out.println("el guisado es: " + t.getGuisado());
+	    
+	    t.setNumeroDeTortilla(2);
+	    System.out.println("el numero de tortilla es: " + t.getNumeroDeTortilla());
+	    
+	    t.setTamanioDeTortilla("grande");
+	    System.out.println("el tamaño es: " + t.getTamanioDeTortilla());
+	    
+	    t.setPrecio(25);
+	    System.out.println("el precio es: " + t.getPrecio());
+	}
+	}

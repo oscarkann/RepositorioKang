@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.generation.ok.clases.Persona"/>
+    <fullyQualifiedTypeName name="java.awt.geom.Area"/>
+    <fullyQualifiedTypeName name="com.generation.ok.clases.AreaPerimetro"/>
+    <fullyQualifiedTypeName name="com.generation.ok.clases.FigurasGeometricas"/>
+    <fullyQualifiedTypeName name="com.generation.ok.clases.Taco"/>
+    <fullyQualifiedTypeName name="com.generation.ok.clases.ClaseGenerica"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,48 @@
+package com.generation.ok.clases;
+
+public class Taco {
+	
+	public Taco() {
+		super();
+	}
+	
+	String tipoDeTortilla;
+	String Guisado;
+	String tamanioDeTortilla;
+	int numeroDeTortilla;
+	float precio;
+	
+	public String getTipoDeTortilla() {
+		return tipoDeTortilla;
+	}
+	public void setTipoDeTortilla(String tipoDeTortilla) {
+		this.tipoDeTortilla = tipoDeTortilla;
+	}
+	public String getGuisado() {
+		return Guisado;
+	}
+	public void setGuisado(String guisado) {
+		Guisado = guisado;
+	}
+	public String getTamanioDeTortilla() {
+		return tamanioDeTortilla;
+	}
+	public void setTamanioDeTortilla(String tamanioDeTortilla) {
+		this.tamanioDeTortilla = tamanioDeTortilla;
+	}
+	public int getNumeroDeTortilla() {
+		return numeroDeTortilla;
+	}
+	public void setNumeroDeTortilla(int numeroDeTortilla) {
+		this.numeroDeTortilla = numeroDeTortilla;
+	}
+	public float getPrecio() {
+		return precio;
+	}
+	public void setPrecio(float precio) {
+		this.precio = precio;
+	}
+	
+	
+	
+}

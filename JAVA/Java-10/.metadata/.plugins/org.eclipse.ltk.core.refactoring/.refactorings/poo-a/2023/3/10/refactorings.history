@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.generation.ok.clases.TacoPreparado&apos; to &apos;TacoQueto&apos;&#x0A;- Original project: &apos;poo-a&apos;&#x0A;- Original element: &apos;com.generation.ok.clases.TacoPreparado&apos;&#x0A;- Renamed element: &apos;com.generation.ok.clases.TacoQueto&apos;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;TacoPreparado&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.generation.ok.clases{TacoPreparado.java[TacoPreparado" matchStrategy="1" name="TacoQueto" qualified="false" references="false" similarDeclarations="false" stamp="1678220189119" textual="false" version="1.0"/>
+</session>
