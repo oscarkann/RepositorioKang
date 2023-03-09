@@ -1,0 +1,16 @@
+package com.generation.ok.ManejoExcepciones;
+
+public class TestExceptions {
+
+	public static void main(String[] args) {
+try {
+	
+Division d = new Division(4,2); 
+} catch (OpExceptions e) {
+	
+	System.out.println(e.getMessage());
+	e.printStackTrace();
+	}
+System.out.println("continua..");
+}
+}
