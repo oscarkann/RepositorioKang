@@ -1,2 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.ok.clases.AlumnoB"/>
+    <fullyQualifiedTypeName name="com.ok.clases.PersonaP"/>
+    <fullyQualifiedTypeName name="com.ok.clases.Circulo"/>
+    <fullyQualifiedTypeName name="com.ok.clases.Triangulo"/>
+    <fullyQualifiedTypeName name="com.ok.clases.Cuadrado"/>
+    <fullyQualifiedTypeName name="com.ok.clases.CuentaCorriente"/>
+    <fullyQualifiedTypeName name="com.ok.clases.CuentaAhorros"/>
+</qualifiedTypeNameHistroy>

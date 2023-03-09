@@ -1,0 +1,15 @@
+package com.ok.testers;
+import com.ok.clases.Circulo;
+import com.ok.clases.FigurasGeometricas;
+import com.ok. clases.Rectangulo;
+
+public class TestFigurasGeometricas {
+	
+
+public static void main(String[] args) {
+FigurasGeometricas rectangulo = new Rectangulo (10, 2);
+FigurasGeometricas circulo = new Circulo (2);
+System.out.println(rectangulo.areas ());
+
+}
+}

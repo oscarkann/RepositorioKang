@@ -1,0 +1,5 @@
+package com.ok.clases;
+
+public abstract class FigurasGeometricas {
+
+}
