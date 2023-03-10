@@ -1,0 +1,17 @@
+package hilos.ok.formathread;
+
+public class hilo1 extends Thread{
+	
+public hilo1(String name) {
+		super(name);
+	}
+
+@Override
+public void run() {
+System.out.println("***Se inicia el Thread/Hilo "+ this.getName() + " ***");
+
+
+
+System.out.println("***Finaliza el Thread/Hilo "+ this.getName() + " ***");
+}
+}

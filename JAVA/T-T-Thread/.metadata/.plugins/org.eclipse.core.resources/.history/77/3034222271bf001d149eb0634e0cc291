@@ -1,0 +1,23 @@
+package hilos.ok.pruebas;
+
+import hilos.ok.formathread.Hilo1;
+
+public class TestThread {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Thread h = new Hilo1("Panela");
+		h.start();
+		Thread h0 = new Hilo1("Maria");
+		h.start();
+		Thread h1 = new Hilo1("Raul");
+		h.start();
+		
+		System.out.println(h.getState());
+		System.out.println(h0.getState());
+		System.out.println(h1.getState());
+		
+	}
+
+}
