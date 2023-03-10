@@ -1,0 +1,10 @@
+package hilos.ok.pruebas;
+
+public class TestRunnable {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
