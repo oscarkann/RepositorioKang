@@ -1,0 +1,43 @@
+package pruebasJunit.ok.test;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.Before;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+import pruebasJunit.ok.app.Calculadora;
+
+class CalculadoraTest {
+	private Calculadora ct;
+	private Calculadora ct1 = null;
+
+	@BeforeEach
+	public void configurandoBefor() {
+		ct = new Calculadora();
+		System.out.println("Ejecutando BeforeEach ---> configurandoBefore()");
+
+	}
+
+	@AfterEach
+	public void configurandoAfter() {
+		ct = null; 
+		System.out.println("Ejecutando AfterEach ---> configurandoAfter");
+		System.out.println("-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-");
+
+	}
+
+	@Test
+	void calculadoraNull() {
+		assertNull(ct1, "La clase es una instancia no nula");
+		System.out.println("***  Ejecutando el primer test ---> calculadora   ***");
+	}
+
+	@Test
+	public void calculadoraNotNull() {
+		assertNotNull(ct);
+		System.out.println("***  Ejecutando el segundo test ---> calculadora   ***");
+	}
+
+}

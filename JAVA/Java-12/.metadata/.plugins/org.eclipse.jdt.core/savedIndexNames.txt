@@ -1,0 +1,20 @@
+INDEX VERSION 1.131+/Users/oscarkang/Desktop/Cohorte23/JAVA/Java-12/.metadata/.plugins/org.eclipse.jdt.core
+3966400146.index
+1303122503.index
+2068645235.index
+2188117527.index
+3345943571.index
+3313820624.index
+2478099988.index
+3578588698.index
+1337933215.index
+546429236.index
+1865797976.index
+911871195.index
+2093997530.index
+3806302496.index
+243679390.index
+1904123166.index
+4277366832.index
+2771690792.index
+3270456556.index
