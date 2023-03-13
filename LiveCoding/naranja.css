@@ -1,0 +1,16 @@
+.tamal {
+    background-color: tomato;
+    color: black;
+    border-radius: 20px;
+}
+
+.vaca {
+    background-color:silver;
+    color: tomato;
+    border-radius: 10px;
+    
+}
+
+.atres {
+    background-color: gray
+}
