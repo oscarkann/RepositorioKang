@@ -1,0 +1,25 @@
+package pruebasJunit.ok.app;
+
+public class Calculadora {
+
+	public int sumar() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	public int restar() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	public int multi() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	public int div() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

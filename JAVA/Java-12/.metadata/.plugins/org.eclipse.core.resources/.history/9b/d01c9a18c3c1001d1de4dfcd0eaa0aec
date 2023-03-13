@@ -1,0 +1,18 @@
+package pruebasJunit.ok.test;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+import pruebasJunit.ok.app.Calculadora;
+
+class CalculadoraTest {
+	private Calculadora ct;
+
+	@Test
+	void calculadoraNull() {
+		assertNotNull(ct, "La clase es una instancia no nula");
+		System.out.println("***  Ejecutando el primer test ---> calculadora   ***");
+	}
+
+}
