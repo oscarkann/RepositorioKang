@@ -65,5 +65,7 @@ public class ProductoController {
     @DeleteMapping(path = "{prodId}") //borrar elementos por ID (miOtzo/productos/Id)
     public void  deleteProducto(@PathVariable("prodId")Long prodId) { 
     }
+    
+    
 
 }
